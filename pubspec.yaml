@@ -1,0 +1,30 @@
+name: riverpod_offline_test
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.0.0-dev.15 # 最新版は pub.dev で確認
+  freezed: ^3.0.6
+  freezed_annotation: ^3.0.0
+  riverpod_annotation: ^3.0.0-dev.15 # コード生成を使用する場合
+  shared_preferences: ^2.5.3
+  json_annotation: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  riverpod_generator: ^3.0.0-dev.15 # コード生成を使用する場合
+  custom_lint: ^0.7.5
+  riverpod_lint: ^3.0.0-dev.15 # 最新版は pub.dev で確認
+  json_serializable: ^6.9.5
+
+flutter:
+  uses-material-design: true
