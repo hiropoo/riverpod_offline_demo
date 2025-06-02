@@ -14,6 +14,18 @@ class TodoRepository {
       Todo(id: '3', title: 'Write tests', isCompleted: false),
     ]);
   }
+
+  Future<List<Todo>> addTodo(Todo todo) {
+    return Future.delayed(
+      const Duration(seconds: 1),
+      () => [
+        Todo(id: '1', title: 'Learn Riverpod', isCompleted: false),
+        Todo(id: '2', title: 'Build a Flutter app', isCompleted: true),
+        Todo(id: '3', title: 'Write tests', isCompleted: false),
+        todo, // 新しいTodoを追加
+      ],
+    );
+  }
 }
 
 @riverpod

@@ -37,7 +37,7 @@ final class TodosNotifierProvider
   ) => $AsyncNotifierProviderElement(pointer);
 }
 
-String _$todosNotifierHash() => r'c26b10d4c02586302ae0abddf4823298952962e4';
+String _$todosNotifierHash() => r'9a0701c85826ef23ba2f990e90b5a8371aa11db6';
 
 abstract class _$TodosNotifierBase extends $AsyncNotifier<List<Todo>> {
   FutureOr<List<Todo>> build();
